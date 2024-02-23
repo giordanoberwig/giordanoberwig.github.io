@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main {
+        width: 400px
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header h1 {
+        font-size: 37px;
+    }
+
+    main {
+        width: 650px;
+        font-size: 20px;
+    }
+
+    span.material-symbols-outlined {
+        display: none;
+    }
+
+    nav ul {
+        display: block;
+        padding: 10px 0px;
+    }
+
+    nav li {
+        display: inline;
+    }
+
+    main img.cert {
+        display: block;
+        margin-left: -90px;
+        width: 650px;
+        border: 1px solid rgba(0, 0, 0, 0.050);
+        margin-bottom: 20px;
+    }
+}
