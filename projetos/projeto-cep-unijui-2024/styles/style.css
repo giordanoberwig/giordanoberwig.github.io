@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: white;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+header h1{
+    font-size: 1.9em;
+    color: #0046AD;
+    text-align: center;
+    padding-top: 15px;
+}
+
+header p {
+    font-size: 1.3em;
+    text-align: center;
+    color: #0045add7;
+    font-weight: bold;
+}
+
+header img {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+nav {
+    background-color: #0046AD;
+}
+
+nav ul {
+    display: none;
+}
+
+span.material-symbols-outlined {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 9px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.342);
+    padding: 5px 20px;
+}
+
+main {
+    width: 350px;
+    margin: auto;
+}
+
+main h2 {
+    padding: 40px 0px 20px 0px;
+    text-align: justify;
+}
+
+main p {
+    text-align: justify;
+    line-height: 2em;
+    text-indent: 30px;
+}
+
+main ul {
+    padding-left: 65px;
+    margin-bottom: 40px;
+}
+
+main ul.pontos {
+    text-align: justify;
+    line-height: 2em;
+    width: 280px;
+}
+
+main li {
+    width: 280px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px;
+    margin: auto;
+    line-height: 1.5em;
+    margin-bottom: 40px;
+}
+
+table tr:nth-child(2n) {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+table th {
+    border: 1px solid black;
+    width: 100px;
+    padding: 5px;
+}
+
+table td {
+    border: 1px solid black;
+    width: 200px;
+    padding: 5px;
+}
+
+.esq {
+    width: 45px;
+}
+
+footer {
+    background-color: #0046AD;
+    color: white;
+    display: block;
+    height: 300px;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    position: absolute;
+    float: middle;
+    margin: 200px 200px 200px 143px;
+}
