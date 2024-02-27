@@ -31,7 +31,7 @@
 
     main img.cert {
         display: block;
-        margin-left: -25px;
+        margin: auto;
         width: 650px;
         border: 1px solid rgba(0, 0, 0, 0.233);
         margin-bottom: 20px;
