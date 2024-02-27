@@ -31,9 +31,9 @@
 
     main img.cert {
         display: block;
-        margin-left: -90px;
+        margin-left: -85px;
         width: 650px;
-        border: 1px solid rgba(0, 0, 0, 0.050);
+        border: 1px solid rgba(0, 0, 0, 0.233);
         margin-bottom: 20px;
     }
 }
