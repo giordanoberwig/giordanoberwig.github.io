@@ -24,10 +24,6 @@ header {
     font-size: 1.3em;
 }
 
-main {
-    display: block;
-}
-
 main div#container{
     width: 400px;
     margin: auto;
