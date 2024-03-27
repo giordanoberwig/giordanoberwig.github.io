@@ -25,7 +25,7 @@ header {
 }
 
 main div#container{
-    width: 75vw;
+    width: 300vw;
     display: block;
     margin: auto;
 }
