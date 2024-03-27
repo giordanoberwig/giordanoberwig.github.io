@@ -83,6 +83,8 @@ main p#fim {
 main iframe {
     display: block;
     margin: auto;
+    width: 420px;
+    height: 235px;
 }
 
 footer {
